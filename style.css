@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css?family=Exo|KoHo');
+@import url('https://fonts.googleapis.com/css?family=Gudea|Economica');
+@import url('https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed');
+
+body{
+    background-color: black;
+    text-align: center;
+    font-family: 'Exo', 'Gudea', 'Roboto', sans-serif; 
+    font-size:1.2em;
+    color: greenyellow;
+    margin-top:1em;
+    line-height:1em;
+}
+
+h1, h2{
+ 
+    text-align: center;
+    font-family: 'Exo', 'Gudea', 'Roboto', sans-serif; 
+   font-size:1.2em;
+   color: white;
+}
+
+img {
+	width: 85%;
+    background-color: chocolate;
+    border-radius: 15px;
+    position: relative;
+    cursor: pointer;
+}
+    
+a {
+    color: darkred;
+}  
+    
+    
+
+
+.options {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	column-gap: 10px;
+    background-color: ;
+}
+
+.quiz {
+ 
+}
+
+button {
+    width: 150px;
+    height: 30px;
+    background-color: darkgreen;
+    color: white;
+    margin-top: 2em;
+    
+}
+
+p1{
+    float:inherit;
+}
+
+.question {
+    margin-top: 5em;   
+}
+
